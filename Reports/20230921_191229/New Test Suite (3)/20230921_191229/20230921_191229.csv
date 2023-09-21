@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (3),Chrome 117.0.0.0,,,2023-09-21 19:12:32,2023-09-21 19:13:13,41.300s,FAILED
+,,,,,,,
+Test Cases/test case 3,Chrome 117.0.0.0,,,2023-09-21 19:13:03,2023-09-21 19:13:13,9.870s,FAILED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-09-21 19:13:03,2023-09-21 19:13:05,2.041s,PASSED
+"navigateToUrl(""https://letcode.in/edit"")",Chrome 117.0.0.0,,,2023-09-21 19:13:05,2023-09-21 19:13:08,2.721s,PASSED
+"setText(findTestObject(""Object Repository/Page_Interact with Input fields/input_Enter your full Name_fullName""), ""test name"")",Chrome 117.0.0.0,,,2023-09-21 19:13:08,2023-09-21 19:13:10,2.224s,PASSED
+"setText(findTestObject(""Object Repository/Page_Interact with Input fields/input_Append a text and press keyboard tab_join""), ""I am good human"")",Chrome 117.0.0.0,,,2023-09-21 19:13:10,2023-09-21 19:13:11,0.782s,PASSED
+"setText(findTestObject(""Object Repository/Page_Interact with Input fields/input_What is inside the text box_getMe""), ""ortho"")",Chrome 117.0.0.0,,,2023-09-21 19:13:11,2023-09-21 19:13:11,0.729s,PASSED
+"setText(findTestObject(""Object Repository/Page_Interact with Input fields/input_Clear the text_clearMe""), ""koushik"")",Chrome 117.0.0.0,,,2023-09-21 19:13:11,2023-09-21 19:13:12,0.803s,PASSED
+"setText(findTestObject(""Object Repository/Page_Interact with Input fields/input_Confirm edit field is disabled_noEdit""), """")",Chrome 117.0.0.0,,,2023-09-21 19:13:12,2023-09-21 19:13:13,0.566s,FAILED

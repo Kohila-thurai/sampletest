@@ -19,20 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://letcode.in/edit')
+WebUI.navigateToUrl('https://qa-practice.netlify.app/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_Enter your full Name_fullName'), 'test name')
+WebUI.click(findTestObject('Object Repository/Page_QA Practice  Learn with RV/button_Submit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_Append a text and press keyboard tab_join'), 
-    'I am good human')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Practice  Learn with RV/div_Bad credentials Please try again Make s_5a4980'), 
+    'Bad credentials! Please try again! Make sure that you\'ve registered.')
 
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_What is inside the text box_getMe'), 
-    'ortho')
+WebUI.setText(findTestObject('Object Repository/Page_QA Practice  Learn with RV/input_Email address_emailAddress'), 'admin@admin.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_Clear the text_clearMe'), 'koushik')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_QA Practice  Learn with RV/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_Interact with Input fields/input_Confirm edit field is disabled_noEdit'))
+WebUI.click(findTestObject('Object Repository/Page_QA Practice  Learn with RV/button_Submit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Interact with Input fields/input_Confirm text is readonly_dontwrite'), 
-    'This text is readonly')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Practice  Learn with RV/div_adminadmin.com, you have successfully l_953553'), 
+    'admin@admin.com, you have successfully logged in!')
+
+WebUI.closeBrowser()
 

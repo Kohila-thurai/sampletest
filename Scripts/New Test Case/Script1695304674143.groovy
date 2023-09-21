@@ -17,22 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://letcode.in/edit')
-
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_Enter your full Name_fullName'), 'test name')
-
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_Append a text and press keyboard tab_join'), 
-    'I am good human')
-
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_What is inside the text box_getMe'), 
-    'ortho')
-
-WebUI.setText(findTestObject('Object Repository/Page_Interact with Input fields/input_Clear the text_clearMe'), 'koushik')
-
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_Interact with Input fields/input_Confirm edit field is disabled_noEdit'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Interact with Input fields/input_Confirm text is readonly_dontwrite'), 
-    'This text is readonly')
-

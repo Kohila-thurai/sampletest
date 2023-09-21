@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>11ece780-e231-46d8-8a8a-0521f4421f9d</webElementGuid>
+      <webElementGuid>eb1dd921-9f18-457d-9a38-be130f319bbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>c8a99fde-2e75-4d2e-99b1-e0752a61f125</webElementGuid>
+      <webElementGuid>4c2f6ee5-1193-4554-8f1d-60ba829822a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a481361b-43a2-4583-a9c6-a8c6821ecc05</webElementGuid>
+      <webElementGuid>5af020de-7f17-4b32-9a94-6b4ac47770e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>dba15199-c4c1-4b48-9440-a5625efcd570</webElementGuid>
+      <webElementGuid>02c77429-5423-40c7-8615-4e165322a2c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>18684f73-77d4-47c4-bead-b13df926cbd9</webElementGuid>
+      <webElementGuid>db17e6c5-cde3-4b78-b285-027cee3f3130</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>d9a46c4b-d3a7-447f-9437-bd537551a6cc</webElementGuid>
+      <webElementGuid>aa4a5b90-5aa7-491a-a906-fb0136e3da77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password&quot;)</value>
-      <webElementGuid>82c91de8-4589-4278-a6fd-d91109d167f9</webElementGuid>
+      <webElementGuid>b10b8803-1e25-440d-ac1a-f253341bd02f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,23 +78,23 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password']</value>
-      <webElementGuid>5a31662e-20d7-4334-b2ff-fe855e3ac71f</webElementGuid>
+      <webElementGuid>b6249a1a-4bac-4e12-b438-d824811ffe33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='registerForm']/div[6]/input</value>
-      <webElementGuid>3c02bb10-d583-406f-a816-95a643010fda</webElementGuid>
+      <value>//form[@id='login']/div[2]/input</value>
+      <webElementGuid>2b520abe-493f-4438-9767-2ed66ba460d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/input</value>
-      <webElementGuid>dfab7692-2814-4fe4-bc23-c851bd3d28c5</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>759c300b-b5d5-4d9e-b4a6-09e80dea818d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @id = 'password' and @placeholder = 'Password' and @name = 'password']</value>
-      <webElementGuid>8d1786e0-6538-47b1-8266-f663984370fd</webElementGuid>
+      <webElementGuid>ebe8e4e9-1bc4-4f16-bb94-b62f35a3b7cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
