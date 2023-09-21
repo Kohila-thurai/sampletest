@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span</name>
+   <tag></tag>
+   <elementGuidId>5fa85ea5-3eb7-4d4d-9416-a5fdb95ef3bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>th.next.available > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>07517bea-258f-4153-949b-5a45ed01412f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;daterangepicker ltr show-calendar opensleft&quot;]/div[@class=&quot;drp-calendar right&quot;]/div[@class=&quot;calendar-table&quot;]/table[@class=&quot;table-condensed&quot;]/thead[1]/tr[1]/th[@class=&quot;next available&quot;]/span[1]</value>
+      <webElementGuid>6aa80aaf-dbab-4151-8bc9-c7caa5693fb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/span</value>
+      <webElementGuid>d0a1253d-031f-413c-83a6-797d9081d85c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
