@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="56.752" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="56.752" skipped="0" timestamp="2023-09-21 18:22:29" hostname="kohilat - LapWinX-DAC59.arackal.co.in" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kohilat\\git\\sampletest\\Reports\\20230921_182223\\New Test Suite\\20230921_182223"/>
+         <property name="logFiles" value="C:\\Users\\kohilat\\git\\sampletest\\Reports\\20230921_182223\\New Test Suite\\20230921_182223\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kohilat - LapWinX-DAC59.arackal.co.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="53036443f440b10da150393d00f7d067"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test case1" time="30.331" classname="Test Cases/test case1" status="PASSED">
+         <system-out><![CDATA[2023-09-21 18:22:30 - [TEST_CASE][PASSED] - Test Cases/test case1: Test Cases/test case1
+
+2023-09-21 18:22:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-21 18:22:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-21 18:22:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 18:22:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-21 18:22:36 - [TEST_STEP][PASSED] - navigateToUrl("https://qa-practice.netlify.app/register"): Navigate to 'https://qa-practice.netlify.app/register' successfully
+
+2023-09-21 18:22:39 - [MESSAGE][PASSED] - Navigate to 'https://qa-practice.netlify.app/register' successfully
+
+2023-09-21 18:22:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_First Name_firstName"), "test"): Text 'test' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_First Name_firstName'
+
+2023-09-21 18:22:40 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_First Name_firstName'
+
+2023-09-21 18:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Last Name_lastName"), "name"): Text 'name' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Last Name_lastName'
+
+2023-09-21 18:22:41 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Last Name_lastName'
+
+2023-09-21 18:22:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Phone number_phone"), "9876543210"): Text '9876543210' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Phone number_phone'
+
+2023-09-21 18:22:42 - [MESSAGE][PASSED] - Text '9876543210' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Phone number_phone'
+
+2023-09-21 18:22:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_QA Practice  Learn with RV/select_Select a country.              Afgha_f92af3"), "India", true): All options with value 'India' are selected in object 'Object Repository/Page_QA Practice  Learn with RV/select_Select a country.              Afgha_f92af3'  using regular expression
+
+2023-09-21 18:22:56 - [MESSAGE][PASSED] - All options with value 'India' are selected in object 'Object Repository/Page_QA Practice  Learn with RV/select_Select a country.              Afgha_f92af3'  using regular expression
+
+2023-09-21 18:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Email address_emailAddress"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Email address_emailAddress'
+
+2023-09-21 18:22:57 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Email address_emailAddress'
+
+2023-09-21 18:22:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Password_password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Password_password'
+
+2023-09-21 18:22:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Password_password'
+
+2023-09-21 18:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Password_exampleCheck1")): Object: 'Object Repository/Page_QA Practice  Learn with RV/input_Password_exampleCheck1' is clicked on
+
+2023-09-21 18:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/input_Password_exampleCheck1' is clicked on
+
+2023-09-21 18:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_Register")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Register' is clicked on
+
+2023-09-21 18:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Register' is clicked on
+
+2023-09-21 18:23:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/div_The account has been successfully created"), "The account has been successfully created!"): Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/div_The account has been successfully created' are matched.
+
+2023-09-21 18:23:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/div_The account has been successfully created' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testcase2" time="25.525" classname="Test Cases/testcase2" status="PASSED">
+         <system-out><![CDATA[2023-09-21 18:23:01 - [TEST_CASE][PASSED] - Test Cases/testcase2: Test Cases/testcase2
+
+2023-09-21 18:23:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-21 18:23:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-21 18:23:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-21 18:23:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 18:23:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-21 18:23:05 - [TEST_STEP][PASSED] - navigateToUrl("https://qa-practice.netlify.app/calendar"): Navigate to 'https://qa-practice.netlify.app/calendar' successfully
+
+2023-09-21 18:23:10 - [MESSAGE][PASSED] - Navigate to 'https://qa-practice.netlify.app/calendar' successfully
+
+2023-09-21 18:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018")): Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018")): Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018")): Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018")): Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018")): Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is clicked on
+
+2023-09-21 18:23:18 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018")): Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is double clicked on
+
+2023-09-21 18:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018' is double clicked on
+
+2023-09-21 18:23:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018_next available")): Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018_next available' is clicked on
+
+2023-09-21 18:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018_next available' is clicked on
+
+2023-09-21 18:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/span")): Object: 'Object Repository/Page_QA Practice  Learn with RV/span' is clicked on
+
+2023-09-21 18:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/span' is clicked on
+
+2023-09-21 18:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/span")): Object: 'Object Repository/Page_QA Practice  Learn with RV/span' is clicked on
+
+2023-09-21 18:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/span' is clicked on
+
+2023-09-21 18:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/span")): Object: 'Object Repository/Page_QA Practice  Learn with RV/span' is clicked on
+
+2023-09-21 18:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/span' is clicked on
+
+2023-09-21 18:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_Apply")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Apply' is clicked on
+
+2023-09-21 18:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Apply' is clicked on
+
+2023-09-21 18:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar")): Object: 'Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar' is clicked on
+
+2023-09-21 18:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar' is clicked on
+
+2023-09-21 18:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/td_23")): Object: 'Object Repository/Page_QA Practice  Learn with RV/td_23' is clicked on
+
+2023-09-21 18:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/td_23' is clicked on
+
+2023-09-21 18:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/div_Home                                   _6acd46")): Object: 'Object Repository/Page_QA Practice  Learn with RV/div_Home                                   _6acd46' is clicked on
+
+2023-09-21 18:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/div_Home                                   _6acd46' is clicked on
+
+2023-09-21 18:23:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar"), ""): Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar' are matched.
+
+2023-09-21 18:23:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar' are matched.
+
+2023-09-21 18:23:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Range Date Picker Example_daterange"), ""): Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/input_Range Date Picker Example_daterange' are matched.
+
+2023-09-21 18:23:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/input_Range Date Picker Example_daterange' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-21 18:22:29 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/testcase2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

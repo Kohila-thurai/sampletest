@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite (2),Chrome 117.0.0.0,,,2023-09-21 19:07:00,2023-09-21 19:07:58,58.519s,PASSED
+,,,,,,,
+Test Cases/testcase2,Chrome 117.0.0.0,,,2023-09-21 19:07:42,2023-09-21 19:07:58,16.414s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-09-21 19:07:42,2023-09-21 19:07:44,2.349s,PASSED
+"navigateToUrl(""https://qa-practice.netlify.app/calendar"")",Chrome 117.0.0.0,,,2023-09-21 19:07:44,2023-09-21 19:07:47,2.619s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018""))",Chrome 117.0.0.0,,,2023-09-21 19:07:47,2023-09-21 19:07:51,4.096s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018""))",Chrome 117.0.0.0,,,2023-09-21 19:07:51,2023-09-21 19:07:51,0.472s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018""))",Chrome 117.0.0.0,,,2023-09-21 19:07:51,2023-09-21 19:07:52,0.412s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018""))",Chrome 117.0.0.0,,,2023-09-21 19:07:52,2023-09-21 19:07:52,0.410s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018""))",Chrome 117.0.0.0,,,2023-09-21 19:07:52,2023-09-21 19:07:53,0.370s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018""))",Chrome 117.0.0.0,,,2023-09-21 19:07:53,2023-09-21 19:07:53,0.587s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/th_Feb 2018_next available""))",Chrome 117.0.0.0,,,2023-09-21 19:07:53,2023-09-21 19:07:54,0.449s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/span""))",Chrome 117.0.0.0,,,2023-09-21 19:07:54,2023-09-21 19:07:54,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/span""))",Chrome 117.0.0.0,,,2023-09-21 19:07:54,2023-09-21 19:07:55,0.543s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/span""))",Chrome 117.0.0.0,,,2023-09-21 19:07:55,2023-09-21 19:07:55,0.632s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/button_Apply""))",Chrome 117.0.0.0,,,2023-09-21 19:07:55,2023-09-21 19:07:56,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar""))",Chrome 117.0.0.0,,,2023-09-21 19:07:56,2023-09-21 19:07:56,0.442s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/td_23""))",Chrome 117.0.0.0,,,2023-09-21 19:07:56,2023-09-21 19:07:57,0.554s,PASSED
+"click(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/div_Home                                   _6acd46""))",Chrome 117.0.0.0,,,2023-09-21 19:07:57,2023-09-21 19:07:57,0.537s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/input_Basic Date Picker Example_calendar""), """")",Chrome 117.0.0.0,,,2023-09-21 19:07:57,2023-09-21 19:07:58,0.466s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_QA Practice  Learn with RV/input_Range Date Picker Example_daterange""), """")",Chrome 117.0.0.0,,,2023-09-21 19:07:58,2023-09-21 19:07:58,0.406s,PASSED
